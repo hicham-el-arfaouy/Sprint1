@@ -12,14 +12,15 @@ a{
     color: black;
     text-decoration: none;
     margin: 0px 10px;
-    
 }
 a:hover{
     text-decoration: underline;
-    text-decoration-thickness: 2px;
 }
 nav{
     margin-top: 30px;
+}
+nav .greater{
+    display: none;
 }
 main{
     margin-left: 10px;
@@ -33,11 +34,12 @@ article{
     padding: 10px;
     margin: 0px 10px 20px 10px;
     border: 2px black solid;
+    text-align: start;
 }
-article .imageArticle{
-    padding: 70px 40px;
-    margin: 0;
-    background-color: #8CBFEA;
+article img{
+    width: 200px;
+    height: 200px;
+    border-radius: 2px;
 }
 article .rrpArticle{
     color: #8B8B8B;
@@ -59,10 +61,20 @@ article .priceSavingArticle{
     header img{
         margin-bottom: 20px;
     }
+    nav .greater{
+        display: inline;
+    }
+    nav .slash{
+        display: none;
+    }
     main h1{
         font-size: x-large;
     }
     article{
-        width: 80%;
+        width: 300px;
+    }
+    article img{
+        width: 100%;
+        height: 50vh;
     }
 }
