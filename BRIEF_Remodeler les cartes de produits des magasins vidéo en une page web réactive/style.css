@@ -19,6 +19,9 @@ a:hover{
 nav{
     margin-top: 30px;
 }
+nav .slash::before{
+    content: "/";
+}
 main{
     margin-left: 10px;
 }
@@ -57,9 +60,6 @@ article .priceSavingArticle{
     }
     header img{
         margin-bottom: 20px;
-    }
-    nav .slash span{
-        display: none;
     }
     nav .slash::before{
         content: ">";
